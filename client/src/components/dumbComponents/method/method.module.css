@@ -1,0 +1,26 @@
+.activeMethodButton,
+.methodButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 2px;
+  border-radius: 50%;
+  background-color: white;
+  color: orange;
+
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+.methodButton {
+  color: white;
+  background-color: orange;
+}
+.methodButton:active,
+.methodButton:hover,
+.methodButton:focus {
+  background-color: white;
+  color: orange;
+}

@@ -1,0 +1,8 @@
+.mainContainer {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 5px;
+  padding-top: 30px;
+}

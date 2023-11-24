@@ -1,0 +1,49 @@
+.previousContainer {
+  width: 310px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.titleContainer {
+  position: relative;
+}
+.resetButton {
+  position: absolute;
+  top: 5px;
+  right: 7px;
+
+  width: 15px;
+  height: 15px;
+  padding: 0;
+
+  text-align: center;
+  border: none;
+  border-radius: 50%;
+}
+.title,
+.empty {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.empty {
+  font-size: 20px;
+}
+.listContainer {
+  text-align: center;
+  width: 100%;
+
+  color: white;
+  padding-bottom: 10px;
+}
+.list {
+  margin: 0;
+  padding-left: 25px;
+  user-select: none;
+}
+@media screen and (max-width: 570px) {
+  .previousContainer {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+.mainPageContainer {
+  position: relative;
+  width: 240px;
+  height: max-content;
+  background-color: black;
+  border-radius: 20px;
+}
+.calculatorContainer {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,29 @@
+.skeletonContainer {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 240px;
+  height: 100%;
+
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.4);
+  top: 0;
+}
+.error,
+.loading {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: red;
+  user-select: none;
+}
+.loading {
+  color: gray;
+}
+.reloadButton {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
